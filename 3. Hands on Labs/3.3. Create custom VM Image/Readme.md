@@ -55,7 +55,7 @@
         
         ![alt text](./images/3.3.5.png)
 
-        - Download the sample script from [here](http://azure.com). 
+        - Download the sample script from [here](https://raw.githubusercontent.com/xlegend1024/az-infra-wrkshp-101/master/9.%20Resources/script.sh). 
 
         - Upload the script.
         
