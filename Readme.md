@@ -18,12 +18,9 @@
     - (Optional) Create load balancer
 
 1. Hands on Labs
-    1. [Create Virtual Network][1] 
-    1. Manage NSG
-    1. Create custom VM image
-    1. Create VM Portal
-    1. Create VM Cli
-
-
-[1]:(../3. Hands on Labs/3.1. Create Virtual Network/Readme.md)
+    1. [Create Virtual Network](3.%20Hands%20on%20Labs/3.1.%20Create%20Virtual%20Network/Readme.md) 
+    1. [Manage NSG](3.%20Hands%20on%20Labs/3.2.%20Manage%20NSG/Readme.md)
+    1. [Create custom VM image](3.%20Hands%20on%20Labs/3.3.%20Create%20custom%20VM%20Image/Readme.md)
+    1. [Create VM Portal](3.%20Hands%20on%20Labs/3.4.%20Create%20VM%20Portal/Readme.md)
+    1. [Create VM Cli](3.%20Hands%20on%20Labs/3.5.%20Create%20VM%20Cli/Readme.md)
 
