@@ -45,7 +45,7 @@
             |Yes|
         
     * Network
-        - desc 1.
+        - Choose development virtual network and subnet.
         
         ![alt text](./images/3.3.4.png)
 
@@ -81,13 +81,16 @@
 Run bash shell by clicking icon, ![alt text](./images/3.3.91.png), on top of azure portal.
 
     8.1. Access VM
-    
-        ![alt text](./images/3.3.10.png)
+
+    Run ssh to access the VM. 
+    ![alt text](./images/3.3.10.png)
 
     8.2. Run deprovisoning command
     ```
     sudo waagent -deprovision+user
     ```
+
+    ![alt text](./images/3.3.11.png)
 
 1. Shutdown VM
 Click ![alt text](./images/3.3.12.png) and stop the VM.
