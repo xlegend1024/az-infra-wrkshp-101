@@ -47,12 +47,16 @@ Please follow next two steps to create your own dashboard first.
 
     ![alt text](./3.%20Hands%20on%20Labs/images/3.0.2.png)
 
+
+
 ### Pin to dashboard 
 When you create resource you'll see 'Pin to dashboard'. Check the box when you create a resource so you can have short cut to access to a resource.
 
 ![alt text](./3.%20Hands%20on%20Labs/images/3.0.3.png)
 
+
+
 ### Use search to find your resource or Azure service
 To find your specific resource you can use search at the Azure portal.
 
-![alt text] (./3.%20Hands%20on%20Labs/images/3.0.4.png)
+![alt text](./3.%20Hands%20on%20Labs/images/3.0.5.png)
