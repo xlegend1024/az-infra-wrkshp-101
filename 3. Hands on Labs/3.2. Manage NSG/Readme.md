@@ -53,3 +53,6 @@
 
     ![alt text](./images/3.2.6.png "Select Subnet")
 
+<hr>
+
+[Next Lab 3.>>](https://github.com/xlegend1024/az-infra-wrkshp-101/tree/master/3.%20Hands%20on%20Labs/3.3.%20Create%20custom%20VM%20Image)

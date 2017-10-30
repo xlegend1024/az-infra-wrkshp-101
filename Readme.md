@@ -28,12 +28,12 @@ Click each folling link for HOL.
     1. [Create Virtual Network](3.%20Hands%20on%20Labs/3.1.%20Create%20Virtual%20Network/Readme.md) 
     1. [Manage NSG](3.%20Hands%20on%20Labs/3.2.%20Manage%20NSG/Readme.md)
     1. [Create custom VM image](3.%20Hands%20on%20Labs/3.3.%20Create%20custom%20VM%20Image/Readme.md)
-    1. [Create VM Portal](3.%20Hands%20on%20Labs/3.4.%20Create%20VM%20Portal/Readme.md)
-    1. [Create VM Cli](3.%20Hands%20on%20Labs/3.5.%20Create%20VM%20Cli/Readme.md)
+    1. [Create web servers from custom VM image](3.%20Hands%20on%20Labs/3.4.%20Create%20VM%20Portal/Readme.md)
+    1. [Move VM using Azure cli](3.%20Hands%20on%20Labs/3.5.%20Create%20VM%20Cli/Readme.md)
     1. [Create Application Gateway](3.%20Hands%20on%20Labs/3.6.%20Application%20Gateway/Readme.md)
 
-## *Tips* for Hands on Lab
-### Make your own Azure Portal Dashboard
+# *Tips* for Hands on Lab
+## Make your own Azure Portal Dashboard
 
 Please follow next two steps to create your own dashboard first.
 
@@ -48,15 +48,13 @@ Please follow next two steps to create your own dashboard first.
     ![alt text](./3.%20Hands%20on%20Labs/images/3.0.2.png)
 
 
-
-### Pin to dashboard 
+## Pin to dashboard 
 When you create resource you'll see 'Pin to dashboard'. Check the box when you create a resource so you can have short cut to access to a resource.
 
 ![alt text](./3.%20Hands%20on%20Labs/images/3.0.3.png)
 
 
-
-### Use search to find your resource or Azure service
+## Use search to find your resource or Azure service
 To find your specific resource you can use search at the Azure portal.
 
 ![alt text](./3.%20Hands%20on%20Labs/images/3.0.5.png)

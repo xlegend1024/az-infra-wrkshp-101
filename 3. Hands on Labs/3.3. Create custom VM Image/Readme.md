@@ -106,4 +106,6 @@ Change image name like following.
 
     ![alt text](./images/3.3.15.png).
 
+<hr>
 
+[Next Lab 4.>>](https://github.com/xlegend1024/az-infra-wrkshp-101/tree/master/3.%20Hands%20on%20Labs/3.4.%20Create%20VM%20Portal)
