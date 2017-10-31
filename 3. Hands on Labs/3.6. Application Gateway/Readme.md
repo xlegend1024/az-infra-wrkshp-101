@@ -20,7 +20,9 @@ az network vnet subnet create -g $rgName -n $subName --vnet-name $vnetName --add
 az network application-gateway create -g $rgName -n "l7slb" \
     --capacity 2 --sku WAF_Medium \
     --vnet-name $vnetName \
-    --subnet $subName 
+    --subnet $subName \
+    --frontend-port 80 \
+    --public-ip-address "httpslb-ip"     
 ```
 
 2. Add backend pool. 
@@ -29,3 +31,12 @@ Add web servers to Application Gateway.
 ```bash
 az network application-gateway address-pool create -g $rgName --gateway-name "l7slb" -n "webpool" --servers 10.1.1.4 10.1.1.5
 ```
+
+3. Enable WAF (Web Application Firewall)
+To protect your web and servers, enalbe WAF feature of Application Gateway.
+
+![appgateway waf](./images/3.6.1.png)
+
+
+4. Access your web server 
+Now you can access your webapp via Application Gateway Public IP address.
