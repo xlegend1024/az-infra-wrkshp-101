@@ -4,9 +4,10 @@ Provison a new production web server.
 ## Architecture 
 ![alt text](/3.%20Hands%20on%20Labs/images/3.4.png)
 
-
 ## Create new Virtual Network
-Before create a VM, create new Virtual Network and subnet for __production webapp__. This time use Cli to create Virtual Network. Launch [Cloud Shell](https://docs.microsoft.com/en-us/azure/cloud-shell/quickstart) by clicking icon, ![alt text](./images/3.3.91.png), on top of azure portal.
+Before create a VM, create new Virtual Network and subnet for __production webapp__. This time we'll use Cli to create Virtual Network. Launch [Cloud Shell](https://docs.microsoft.com/en-us/azure/cloud-shell/quickstart).
+
+> To run Cloud Shell, click icon ![alt text](./images/3.3.91.png), on top of the Azure portal.
 
 > Before run vnet creation command, modify resource group name and run it.
 

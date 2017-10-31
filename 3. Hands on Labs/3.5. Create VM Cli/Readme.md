@@ -1,5 +1,5 @@
 # Create VM from customized VM image using Azure Cli
-Create customized VM using [Azure cli](https://azure.github.io/projects/clis/). During the labs, we are going to use [Azure Cloud Shell](https://docs.microsoft.com/en-us/azure/cloud-shell/overview)
+During the labs, we are going to use [Azure Cloud Shell](https://docs.microsoft.com/en-us/azure/cloud-shell/overview) and  [Azure cli](https://azure.github.io/projects/clis/).
 
 ## Architecture 
 ![alt text](/3.%20Hands%20on%20Labs/images/3.5.png)
@@ -31,7 +31,7 @@ az storage container create -n vhds --connection-string $blobConn
 
 3. Move/Copy VHD
 
-    Copy VM image from on-premise to azure blob.
+    Copy VM image from on-premise to azure blob. And to copy VHD file, [azcopy](https://docs.microsoft.com/en-us/azure/storage/common/storage-use-azcopy-linux?toc=%2fazure%2fstorage%2fblobs%2ftoc.json) will be used. 
 
 > VHD is already prepared for the hands on lab. To understand how to prepare VHD for Azure Migration visit [link](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/create-upload-generic).
 
@@ -42,7 +42,7 @@ azcopy --source:https://workshopiaasmtcseagp.blob.core.windows.net/vhds/ --sourc
     --include "iaaslablinuxvm20171024162330.vhd"
 ```
 
-> To complete copy VHD from blob to blob will take around 3~4 mintues.
+> To complete copy a VHD from blob to blob will take around 3~4 mintues.
 
 3. Create a managed disk using uploaded VHD file
 
@@ -66,7 +66,12 @@ az image create -g $rgName -n "migrated-web-ubt-img" --source "web-ubt-os-disk" 
 
     Create a VM using cli.   
 
-> To run following command you need to have values of each variables, $vnetName, $subName and $nsgName.
+> To run following command make sure following resources are already existing.
+```bash
+vnetName=prd-westus-vnet
+subName=web
+nsgName=webapp-prd-nsg
+```
 
 ```bash
 az vm create --resource-group $rgName --name "web-prd-02" --image "migrated-web-ubt-img" \
