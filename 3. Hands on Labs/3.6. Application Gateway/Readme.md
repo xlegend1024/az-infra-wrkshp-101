@@ -38,5 +38,10 @@ To protect your web and servers, enalbe WAF feature of Application Gateway.
 ![appgateway waf](./images/3.6.1.png)
 
 
-4. Access your web server 
+4. Access your web server
+
 Now you can access your webapp via Application Gateway Public IP address.
+
+<hr>
+
+[Next Lab 7.>>](https://github.com/xlegend1024/az-infra-wrkshp-101/tree/master/3.%20Hands%20on%20Labs/3.7.%20Remove%20resources)
