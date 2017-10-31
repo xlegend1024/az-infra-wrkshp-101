@@ -1,7 +1,9 @@
 # Create VM from customized VM image
+Create customized VM using [Azure cli](https://azure.github.io/projects/clis/).
+During the labs, we are going to use [Azure Cloud Shell](https://docs.microsoft.com/en-us/azure/cloud-shell/overview)
 
-## Add new subnet
-Create new subnet before provision production webapp.
+## Create new Virtual Network
+Create new Virtual Network and subnet before provision production webapp.
 
 > Before run next command, modify resource group name first.
 
@@ -14,7 +16,7 @@ Run following command to create new Virtual Network and subnet.
 az network vnet create -g $rgName -n $vnetName --address-prefix '10.1.0.0/16' --subnet-name $subName --subnet-prefix '10.1.1.0/24' 
 ```
 
-## Add new NSG
+## Create and apply new NSG
 Create new NGS for prodcution webapp VM. The new NGS will allow only TCP 80 port (HTTP). TCP 22 port (SSH) will be disabled.
 
 1. Create new NSG

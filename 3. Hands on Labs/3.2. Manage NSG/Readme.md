@@ -1,4 +1,7 @@
 # Create Network Security Group
+You can control network traffic.
+    ![alt text](./images/3.2.7.png)
+
 1. Network Security Group
 
     Understand how to create and manage NSG rules.
@@ -43,7 +46,7 @@
 
     ![alt text](./images/3.2.4.png "Select Vnet")
 
-    4. Click *2. subnet* and select *    
+    4. Click *2. subnet* and select *webapp*.   
 
     ![alt text](./images/3.2.5.png "Select Subnet")
 

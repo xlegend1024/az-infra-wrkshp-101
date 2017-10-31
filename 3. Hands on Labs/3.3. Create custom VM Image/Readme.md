@@ -1,16 +1,17 @@
 # Create custom VM image
+Create linux Virtual Machie from Azure Marketplace. 
 
-## Create web dev VM
+## Architecture 
+![alt text](/3.%20Hands%20on%20Labs/images/3.3.png)
+
 ### Create Ubuntu VM
 1. Click *+New* and search 'ubuntu'.
 
     ![alt text](./images/3.3.0.png)
 
-
 2. From the search result, select 'Ubuntu Server 16.04 LTS'.
 
     ![alt text](./images/3.3.1.png)
-
 
 3. Click *Create*.
 
