@@ -79,7 +79,7 @@ Create linux Virtual Machie from Azure Marketplace. And create your own image.
         > let's note the ip address of the VM for later use.
 
 8. Deprovision
-Attempt to clean the system and make it suitable for re-provisioning. </br>
+Deprovisioning will attempt to generalize the image. Attempt to clean the system and make it suitable for re-provisioning. </br>
 This operation deleted the following:
     * All SSH host keys (if Provisioning.RegenerateSshHostKeyPair is 'y' in the configuration file)
     * Nameserver configuration in /etc/resolv.conf

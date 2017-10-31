@@ -1,6 +1,10 @@
 # Create VM from customized VM image from portal
 Provison a new production web server.
 
+## Architecture 
+![alt text](/3.%20Hands%20on%20Labs/images/3.4.png)
+
+
 ## Create new Virtual Network
 Before create a VM, create new Virtual Network and subnet for __production webapp__. This time use Cli to create Virtual Network. Launch [Cloud Shell](https://docs.microsoft.com/en-us/azure/cloud-shell/quickstart) by clicking icon, ![alt text](./images/3.3.91.png), on top of azure portal.
 
@@ -45,7 +49,7 @@ az network vnet subnet update -g $rgName -n $subName --vnet-name $vnetName --net
 
 ![alt text](./images/3.4.3.png)
 
-3. Fillout form.
+3. Please use below table to fillout the form.
 
     |Name|VM Disk Type|User Name|Authentication Type|Password|Subscription|Resource Group|Location|
     |---|---|---|---|---|---|---|---|
@@ -58,7 +62,7 @@ az network vnet subnet update -g $rgName -n $subName --vnet-name $vnetName --net
 5. Settings for VM
     * High Availability
 
-        This time we are going to set a new High Availability set for the production web server.
+        This time we are going to create new High Availability set for the production web server.
 
         - Create new availability set
 
@@ -85,3 +89,6 @@ az network vnet subnet update -g $rgName -n $subName --vnet-name $vnetName --net
 
 8. Review summary and Click 'Create'.
 
+<hr>
+
+[Next Lab 5.>>](https://github.com/xlegend1024/az-infra-wrkshp-101/tree/master/3.%20Hands%20on%20Labs/3.5.%20Create%20VM%20Cli)
