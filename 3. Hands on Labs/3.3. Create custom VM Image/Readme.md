@@ -1,8 +1,8 @@
 # Create custom VM image
-Create linux Virtual Machie from Azure Marketplace. 
+Create linux Virtual Machie from Azure Marketplace. And create your own image.
 
 ## Architecture 
-![alt text](/3.%20Hands%20on%20Labs/images/3.3.png)
+![alt text](/3.%20Hands%20on%20Labs/images/3.3.1.png)
 
 ### Create Ubuntu VM
 1. Click *+New* and search 'ubuntu'.
@@ -67,26 +67,32 @@ Create linux Virtual Machie from Azure Marketplace.
     * Monitoring
         - Disable both 'Boot diagnostics' and 'Guest OS diagnostics'.
 
-7. Review summary and click *Create* to provision a VM. (Might takes 5 minutes.)
-    * VM creation will include:
+7. Review summary and click *Create* to provision a VM. (It'll takes around 5 minutes.)
+    * VM creation includes:
         * Create VM
         * Update OS
         * Install Apache
-        * Install sample Web app
+        * Download and Install sample Web app
     * When the provisioning is done you will see detail information like following.
         
         ![alt text](./images/3.3.8.png)
         > let's note the ip address of the VM for later use.
 
 8. Deprovision
-Run bash shell by clicking icon, ![alt text](./images/3.3.91.png), on top of azure portal.
+Attempt to clean the system and make it suitable for re-provisioning. </br>
+This operation deleted the following:
+    * All SSH host keys (if Provisioning.RegenerateSshHostKeyPair is 'y' in the configuration file)
+    * Nameserver configuration in /etc/resolv.conf
+    * Root password from /etc/shadow (if Provisioning.DeleteRootPassword is 'y' in the configuration file)
+    * Cached DHCP client leases
+    * Resets host name to localhost.localdomain
 
     8.1. Access VM
-
-    Run ssh to access the VM. 
+    Launch [Cloud Shell](https://docs.microsoft.com/en-us/azure/cloud-shell/quickstart) by clicking icon, ![alt text](./images/3.3.91.png), on top of azure portal.</br>
+    And in the Cloud Shell run ssh command to access the VM. 
     ![alt text](./images/3.3.10.png)
 
-    8.2. Run deprovisoning command
+    8.2. Run deprovisoning command and proceed the command by typing 'y'.
     ```
     sudo waagent -deprovision+user
     ```
@@ -106,6 +112,11 @@ Change image name like following.
     |web-ver1-image|*yourresourcegroup*|yes|
 
     ![alt text](./images/3.3.15.png).
+
+## Architecture 
+When captruing is done, your vm in no longer exisit. So your current architecture will look like following.
+![alt text](/3.%20Hands%20on%20Labs/images/3.3.2.png)
+
 
 <hr>
 

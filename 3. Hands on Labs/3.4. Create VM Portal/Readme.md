@@ -1,18 +1,17 @@
-# Create VM from customized VM image
-Create customized VM using [Azure cli](https://azure.github.io/projects/clis/).
-During the labs, we are going to use [Azure Cloud Shell](https://docs.microsoft.com/en-us/azure/cloud-shell/overview)
+# Create VM from customized VM image from portal
+Provison a new production web server.
 
 ## Create new Virtual Network
-Create new Virtual Network and subnet before provision production webapp.
+Before create a VM, create new Virtual Network and subnet for __production webapp__. This time use Cli to create Virtual Network. Launch [Cloud Shell](https://docs.microsoft.com/en-us/azure/cloud-shell/quickstart) by clicking icon, ![alt text](./images/3.3.91.png), on top of azure portal.
 
-> Before run next command, modify resource group name first.
+> Before run vnet creation command, modify resource group name and run it.
 
     rgName=typeyourresourcegruopnameandrun
-    vnetName=prd-westus-vnet
-    subName=web
 
 Run following command to create new Virtual Network and subnet. 
 ```bash
+vnetName=prd-westus-vnet
+subName=web
 az network vnet create -g $rgName -n $vnetName --address-prefix '10.1.0.0/16' --subnet-name $subName --subnet-prefix '10.1.1.0/24' 
 ```
 
@@ -37,7 +36,8 @@ az network vnet subnet update -g $rgName -n $subName --vnet-name $vnetName --net
 
 ## Create VM 
 
-1. Create VM from images. Click the image.
+1. Create VM from the customized image. Click the image. 
+> If you can't find it, use search in the top of portal.
 
 ![alt text](./images/3.4.1.png)
 
@@ -55,9 +55,11 @@ az network vnet subnet update -g $rgName -n $subName --vnet-name $vnetName --net
 
 ![alt text](./images/3.4.5.png)
 
-
 5. Settings for VM
     * High Availability
+
+        This time we are going to set a new High Availability set for the production web server.
+
         - Create new availability set
 
             |Availability Zone|Availability Set|

@@ -1,4 +1,7 @@
-# Move VHD
+# Create VM from customized VM image using Azure Cli
+Create customized VM using [Azure cli](https://azure.github.io/projects/clis/). During the labs, we are going to use [Azure Cloud Shell](https://docs.microsoft.com/en-us/azure/cloud-shell/overview)
+
+## Move VHD
 Scenario
 
 1. Create Blob
