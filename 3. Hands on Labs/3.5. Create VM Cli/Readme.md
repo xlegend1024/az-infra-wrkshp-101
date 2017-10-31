@@ -9,7 +9,7 @@ If you have your own images in your on-premise environment, you can upload your 
 
 ![](./images/3.5.2.png)
 
-> Note that there are few conditions to run your own vm on Azure. You can see detail conditions from the [link](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/create-upload-generic).
+> Note that there are few conditions you need to verify to run your own vm on Azure. You can see detail conditions from the [link](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/create-upload-generic).
 
 1. Find Blob storage account name
 

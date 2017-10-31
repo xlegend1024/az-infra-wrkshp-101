@@ -1,5 +1,5 @@
 # Create VM from customized VM image from portal
-Provison a new production web server.
+Provison a new web server for production service.
 
 ## Architecture 
 ![alt text](/3.%20Hands%20on%20Labs/images/3.4.png)
@@ -9,7 +9,7 @@ Before create a VM, create new Virtual Network and subnet for __production webap
 
 > To run Cloud Shell, click icon ![alt text](./images/3.3.91.png), on top of the Azure portal.
 
-> Before run vnet creation command, modify resource group name and run it.
+> Before run vnet creation command, modify resource group name variable.
 
     rgName=typeyourresourcegruopnameandrun
 
@@ -21,7 +21,7 @@ az network vnet create -g $rgName -n $vnetName --address-prefix '10.1.0.0/16' --
 ```
 
 ## Create and apply new NSG
-Create new NGS for prodcution webapp VM. The new NGS will allow only TCP 80 port (HTTP). TCP 22 port (SSH) will be disabled.
+Create new NGS for prodcution webapp VM. The new NGS will allow only TCP 80 port (HTTP). TCP 22 port (SSH) will be denied.
 
 1. Create new NSG
 ```bash
@@ -29,7 +29,7 @@ nsgName=webapp-prd-nsg
 az network nsg create -g $rgName -n $nsgName
 ```
 
-2. Set a rule
+2. Set new rule
 ```bash
 az network nsg rule create -g $rgName --nsg-name $nsgName --direction Inbound -n HTTP --priority 110 --source-address-prefixes '*' --source-port-ranges '*' --destination-address-prefixes '*' --destination-port-ranges 80 --access allow --protocol Tcp
 ```

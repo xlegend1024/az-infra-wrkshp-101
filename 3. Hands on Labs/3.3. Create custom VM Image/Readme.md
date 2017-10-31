@@ -1,5 +1,5 @@
 # Create custom VM image
-Create linux Virtual Machie from Azure Marketplace. And create your own image.
+Create linux Virtual Machie from Azure Marketplace. And create web app VM image for production environment.
 
 ## Architecture 
 ![alt text](/3.%20Hands%20on%20Labs/images/3.3.1.png)
@@ -18,7 +18,7 @@ Create linux Virtual Machie from Azure Marketplace. And create your own image.
     ![alt text](./images/3.3.2.png)
 
 
-4. Fillout the from using following table. 
+4. Please use below table to fillout the form.
 
     |Name|VM Disk Type|User Name|Authentication Type|Password|Subscription|Resource Group|Location|
     |---|---|---|---|---|---|---|---|
@@ -78,7 +78,7 @@ Create linux Virtual Machie from Azure Marketplace. And create your own image.
         ![alt text](./images/3.3.8.png)
         > let's note the ip address of the VM for later use.
 
-8. Deprovision
+8. Deprovision<br>
 Deprovisioning will attempt to generalize the image. Attempt to clean the system and make it suitable for re-provisioning. </br>
 This operation deleted the following:
     * All SSH host keys (if Provisioning.RegenerateSshHostKeyPair is 'y' in the configuration file)
@@ -100,10 +100,13 @@ This operation deleted the following:
     ![alt text](./images/3.3.11.png)
 
 1. Shutdown VM
+
 Click ![alt text](./images/3.3.12.png) and stop the VM.
 
 ## Capture VM as customized image
+
 1. Capture VM
+
 When VM is stoped click ![alt text](./images/3.3.14.png).
 Change image name like following.
 
@@ -116,7 +119,6 @@ Change image name like following.
 ## Architecture 
 When captruing is done, your vm in no longer exisit. So your current architecture will look like following.
 ![alt text](/3.%20Hands%20on%20Labs/images/3.3.2.png)
-
 
 <hr>
 

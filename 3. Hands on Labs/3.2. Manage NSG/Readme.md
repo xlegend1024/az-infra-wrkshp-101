@@ -2,17 +2,20 @@
 You can control network traffic.
     ![alt text](./images/3.2.7.png)
 
-1. Network Security Group
+1. Create Network Security Group
 
-    Understand how to create and manage NSG rules.
-    Use following names for this lab.
+    Click '+ New' and search 'Network Security Group'.
+    Use following names to create new NSG for this lab.
 
     |Name|Subscription|Resource Group|Location|
     |---|---|---|---|
     |webapp-dev-nsg|*yoursubscription*|*yourresourcegroup*|West US| 
 
 1. Add Inbound Security Rules
-    1. Open SSH port
+
+    Allow TCP 22 and TCP 80 port for dev and test environment. 
+
+    1. Allow  SSH port
 
     Click 'Inbound security rules' at the Settings. Click *Add*.
     And select *SSH* from 'Service' combo box. 
@@ -21,7 +24,7 @@ You can control network traffic.
 
     ![alt text](./images/3.2.0.Addrule.png "Add Rule1")
 
-    2. Open HTTP port
+    2. Allow HTTP port
 
     Click 'Inbound security rules' from Settings. Click *Add*.
     And select *HTTP* from 'Service' combo box. 
