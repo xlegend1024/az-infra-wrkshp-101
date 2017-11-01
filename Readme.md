@@ -1,5 +1,6 @@
 # Initial setup
 - Prepare Azure subscription for the lab.
+- To access VM and Cloud Sehll, make sure you can access (outbound) TCP 22 port from your network.
 
 # Agenda 
 
