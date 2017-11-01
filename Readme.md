@@ -4,9 +4,9 @@
 
 # Agenda 
 
-Before workshop let's discuss about Azure IaaS.
+## Before workshop let's discuss about Azure IaaS.
 
-1. Azure Infrastructure as a Service Introduction (30 mins)
+- Azure Infrastructure as a Service Introduction (30 mins)
     - Azure Resource Manager
     - Regions and Availability 
     - VM Types and sizes
@@ -15,23 +15,25 @@ Before workshop let's discuss about Azure IaaS.
     - Monitoring
     - Backup and recovery 
 
-Understand lab scenarios.
+## Understand lab scenarios.
 
-1. Workshop Scenario introduction (10 mins)
+- Workshop Scenario introduction (10 mins)
     - Create web app dev/test VM
     - Capture customized VM images
     - Create web servers from custom VM image
     - (Optional) Create load balancer
 
-Click each folling link for HOL.
+## Click each folling link for HOL.
 
-1. Hands on Labs (2 Hours)
+- Hands on Labs (2 Hours)
     1. [Create Virtual Network](3.%20Hands%20on%20Labs/3.1.%20Create%20Virtual%20Network/Readme.md) 
     1. [Manage NSG](3.%20Hands%20on%20Labs/3.2.%20Manage%20NSG/Readme.md)
     1. [Create custom VM image](3.%20Hands%20on%20Labs/3.3.%20Create%20custom%20VM%20Image/Readme.md)
     1. [Create web servers from custom VM image](3.%20Hands%20on%20Labs/3.4.%20Create%20VM%20Portal/Readme.md)
     1. [Move VM using Azure cli](3.%20Hands%20on%20Labs/3.5.%20Create%20VM%20Cli/Readme.md)
     1. [Create Application Gateway](3.%20Hands%20on%20Labs/3.6.%20Application%20Gateway/Readme.md)
+
+<hr>
 
 # *Tips* for Hands on Lab
 ## Make your own Azure Portal Dashboard
