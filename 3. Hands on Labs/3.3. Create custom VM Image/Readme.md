@@ -110,16 +110,18 @@ Click ![alt text](./images/3.3.12.png) and stop the VM.
 When VM is stoped click ![alt text](./images/3.3.14.png).
 Change image name like following.
 
-    |Name|Resource Group|delete VM|
-    |:---:|---|---|
-    |web-ver1-image|*yourresourcegroup*|yes|
+|Name|Resource Group|delete VM|
+|:---:|---|---|
+|web-ver1-image|*yourresourcegroup*|yes|
 
-    ![alt text](./images/3.3.15.png).
+![alt text](./images/3.3.15.png).
 
-## Architecture 
+## Architecture
+
 When captruing is done, your vm in no longer exisit. So your current architecture will look like following.
+
 ![alt text](/3.%20Hands%20on%20Labs/images/3.3.2.png)
 
-<hr>
+---
 
 [Next Lab 4.>>](https://github.com/xlegend1024/az-infra-wrkshp-101/tree/master/3.%20Hands%20on%20Labs/3.4.%20Create%20VM%20Portal)

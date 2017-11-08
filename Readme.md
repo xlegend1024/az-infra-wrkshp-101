@@ -1,21 +1,23 @@
 # Initial setup
+
 - Prepare Azure subscription for the lab.
-- To access VM and Cloud Sehll, make sure you can access (outbound) TCP 22 port from your network.
+- Make sure you are a contributor of the subscruption.
+- To access VM and Cloud Sehll, make sure you can access *(outbound) TCP 22 port* from your network.
 
-# Agenda 
+## Agenda
 
-## Before workshop let's discuss about Azure IaaS.
+## Before workshop let's discuss about Azure IaaS
 
 - Azure Infrastructure as a Service Introduction (30 mins)
     - Azure Resource Manager
-    - Regions and Availability 
+    - Regions and Availability
     - VM Types and sizes
     - Storage
     - Networking
     - Monitoring
     - Backup and recovery 
 
-## Understand lab scenarios.
+## Understand lab scenarios
 
 - Workshop Scenario introduction (10 mins)
     - Create web app dev/test VM
@@ -23,7 +25,7 @@
     - Create web servers from custom VM image
     - (Optional) Create load balancer
 
-## Click each folling link for HOL.
+## Click each folling link for HOL
 
 - Hands on Labs (2 Hours)
     1. [Create Virtual Network](3.%20Hands%20on%20Labs/3.1.%20Create%20Virtual%20Network/Readme.md) 
@@ -33,10 +35,11 @@
     1. [Move VM using Azure cli](3.%20Hands%20on%20Labs/3.5.%20Create%20VM%20Cli/Readme.md)
     1. [Create Application Gateway](3.%20Hands%20on%20Labs/3.6.%20Application%20Gateway/Readme.md)
 
-<hr>
+---
 
-# *Tips* for Hands on Lab
-## Make your own Azure Portal Dashboard
+## *Tips* for Hands on Lab
+
+## 1. Make your own Azure Portal Dashboard
 
 Please follow next two steps to create your own dashboard first.
 
@@ -45,19 +48,23 @@ Please follow next two steps to create your own dashboard first.
 1. Click '+ New Dashboard' on the portal.
 
     ![alt text](./3.%20Hands%20on%20Labs/images/3.0.1.png)
-    
+
     Change name of the dashboard and click 'Done customizing' to save name. And you'll see empty dashboard.
 
     ![alt text](./3.%20Hands%20on%20Labs/images/3.0.2.png)
 
+## 2. Pin to dashboard
 
-## Pin to dashboard 
 When you create resource you'll see 'Pin to dashboard'. Check the box when you create a resource so you can have short cut to access to a resource.
 
 ![alt text](./3.%20Hands%20on%20Labs/images/3.0.3.png)
 
+## 3. Use search to find your resource or Azure service
 
-## Use search to find your resource or Azure service
 To find your specific resource you can use search at the Azure portal.
 
 ![alt text](./3.%20Hands%20on%20Labs/images/3.0.5.png)
+
+---
+
+[Next Lab 1.>>](https://github.com/xlegend1024/az-infra-wrkshp-101/tree/master/3.%20Hands%20on%20Labs/3.1.%20Create%20Virtual%20Network)

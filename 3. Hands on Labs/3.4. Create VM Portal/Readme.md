@@ -90,6 +90,6 @@ az network vnet subnet update -g $rgName -n $subName --vnet-name $vnetName --net
 
 8. Review summary and Click 'Create'.
 
-<hr>
+---
 
 [Next Lab 5.>>](https://github.com/xlegend1024/az-infra-wrkshp-101/tree/master/3.%20Hands%20on%20Labs/3.5.%20Create%20VM%20Cli)

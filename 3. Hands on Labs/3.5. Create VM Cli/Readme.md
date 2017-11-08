@@ -83,6 +83,6 @@ az vm create --resource-group $rgName --name "web-prd-02" --image "migrated-web-
     --nsg $nsgName
 ```
 
-<hr>
+---
 
 [Next Lab 6.>>](https://github.com/xlegend1024/az-infra-wrkshp-101/tree/master/3.%20Hands%20on%20Labs/3.6.%20Application%20Gateway)
