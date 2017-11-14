@@ -4,6 +4,12 @@ You can control network traffic. Following figure shows how network traffic flow
 
 ![alt text](./images/3.2.7.png)
 
+## Architecture
+
+Create first resource in the resource group.
+
+![alt text](/3.%20Hands%20on%20Labs/images/3.2.png)
+
 1. Create Network Security Group
 
     Click '+ New' and search 'Network Security Group'.
