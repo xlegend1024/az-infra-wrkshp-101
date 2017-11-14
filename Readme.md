@@ -25,6 +25,24 @@
   - Create web servers from custom VM image
   - (Optional) Create load balancer
 
+## Create Resource Group
+
+> *[NOTE]*: If you already have a resource group for the lab, you can skip this step. But, note that you must have *owner* permission of the resource group for hands on lab.
+
+1. Create resource group
+
+    Click '+ new' and search 'Resource group'.
+
+    ![alt text](./images/3.1.0.png)
+
+    Use following name and location for the lab
+
+    |Name|Subscription|Location|
+    |---|---|---|
+    |web-dev-wus-rg|*yoursubscription*|*West US*|
+
+> *[NOTE]*: Please check 'Pin to Dashboard' so you can access the resource easy.
+
 ## Click each folling link for HOL
 
 - Hands on Labs (2 Hours)
