@@ -33,7 +33,7 @@
 
     Click '+ new' and search 'Resource group'.
 
-    ![alt text](./images/3.1.0.png)
+    ![new icon](/3.%20Hands%20on%20Labs/3.1.%20Create%20Virtual%20Network/ßimages/3.1.0.png)
 
     Use following name and location for the lab
 
