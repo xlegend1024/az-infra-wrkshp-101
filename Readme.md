@@ -46,7 +46,7 @@
 ## Click each folling link for HOL
 
 - Hands on Labs (2 Hours)
-  1. [Create Virtual Network](3.%20Hands%20on%20Labs/3.1.%20Create%20Virtual%20Network/Readme.md) 
+  1. [Create Virtual Network](3.%20Hands%20on%20Labs/3.1.%20Create%20Virtual%20Network/Readme.md)
   1. [Manage NSG](3.%20Hands%20on%20Labs/3.2.%20Manage%20NSG/Readme.md)
   1. [Create custom VM image](3.%20Hands%20on%20Labs/3.3.%20Create%20custom%20VM%20Image/Readme.md)
   1. [Create web servers from custom VM image](3.%20Hands%20on%20Labs/3.4.%20Create%20VM%20Portal/Readme.md)
