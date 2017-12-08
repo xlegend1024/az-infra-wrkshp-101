@@ -1,6 +1,7 @@
-# Hands on lab links.
+# Hands on lab links
 
-## Architecture 
+## Architecture
+
 ![alt text](/3.%20Hands%20on%20Labs/images/3.5.png)
 
 1. [Create Virtual Network](3.1.%20Create%20Virtual%20Network/Readme.md) 
